@@ -42,6 +42,10 @@
             android:name=".Activity.MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
+        <provider
+            android:authorities="fr.esiea.kokumo.carnetdevoyages"
+            android:name="db.UsersContentProvider" />
+        <uses-library android:name="android.test.runner" />
     </application>
 
 </manifest>

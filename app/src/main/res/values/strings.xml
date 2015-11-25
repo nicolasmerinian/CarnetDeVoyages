@@ -2,4 +2,13 @@
     <string name="app_name">CarnetDeVoyages</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Créer un voyage</item>
+        <item>Créer une étape</item>
+        <item>Tous les voyages</item>
+    </string-array>
+    <string name="newTravel">Nouveau voyage</string>
+    <string name="validateButton">Valider</string>
+    <string name="newStep">Nouvelle étape</string>
+
 </resources>

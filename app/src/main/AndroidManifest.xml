@@ -42,10 +42,23 @@
             android:name=".Activity.MapsActivity"
             android:label="@string/title_activity_maps" >
         </activity>
+
+        <activity
+            android:name=".Activity.CreateTravelActivity"
+            android:label="@string/title_activity_create_travel" >
+        </activity>
+
+        <activity
+            android:name=".Activity.CreateStepActivity"
+            android:label="@string/title_activity_create_step" >
+        </activity>
+
         <provider
-            android:authorities="fr.esiea.kokumo.carnetdevoyages"
-            android:name="db.UsersContentProvider" />
+            android:name=".db.UsersContentProvider"
+            android:authorities="fr.esiea.kokumo.carnetdevoyages" />
+
         <uses-library android:name="android.test.runner" />
+
     </application>
 
 </manifest>

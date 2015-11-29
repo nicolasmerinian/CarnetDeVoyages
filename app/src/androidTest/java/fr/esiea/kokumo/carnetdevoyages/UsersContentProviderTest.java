@@ -7,12 +7,9 @@ import android.net.Uri;
 import android.test.ProviderTestCase2;
 import android.util.Log;
 
-import db.UsersContentProvider;
-import db.UsersDBHelper;
+import fr.esiea.kokumo.carnetdevoyages.db.UsersContentProvider;
+import fr.esiea.kokumo.carnetdevoyages.db.UsersDBHelper;
 
-/**
- * Created by Kokumo on 25/11/2015.
- */
 public class UsersContentProviderTest extends ProviderTestCase2<UsersContentProvider> {
 
     private ContentResolver contentResolver;
